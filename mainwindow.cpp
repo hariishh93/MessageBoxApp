@@ -43,7 +43,7 @@ void MainWindow::on_pushButton_2_clicked()
 void MainWindow::on_pushButton_3_clicked()
 {
     QMessageBox::StandardButton reply;
-      reply = QMessageBox::question(this, "B.G.Hariishh", "Do you like Cricket?", QMessageBox::Yes|QMessageBox::No);
+      reply = QMessageBox::question(this, "Hariishh", "Do you like Cricket?", QMessageBox::Yes|QMessageBox::No);
       if (reply == QMessageBox::Yes) {
           QMessageBox::information(this,"Yes","You selected Yes");
       }
